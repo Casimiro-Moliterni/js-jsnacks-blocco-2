@@ -6,11 +6,16 @@
 // prima creare array vuoto 
 const textArray = [];
 // chiedere all'utente due parole con due rpompt diversi 
-const userFirsText = prompt('scrivi una parola');
-console.log(userFirsText)
 
-const userSecondText = prompt('scrivi una parola');
-console.log(userSecondText)
+for( let i = 0 ; i < 2 ;  i++){
+
+    const userFirsText = prompt('scrivi una parola');
+
+    console.log(userFirsText)
+}
+
+
 // calcolare la lunghezza delle parole 
+
 
 // poi stampare in console prima la parola più corta e poi quella più lunga 
