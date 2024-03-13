@@ -1,0 +1,23 @@
+#red{
+    border: 1px solid red;
+    color: red;
+    padding: 50px 0 ;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+#green{
+    border: 1px solid green;
+    color: green;
+    padding: 50px 0;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}

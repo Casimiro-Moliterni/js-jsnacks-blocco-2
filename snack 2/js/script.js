@@ -3,19 +3,14 @@
 
 
 
-// prima creare array vuoto 
-const textArray = [];
-// chiedere all'utente due parole con due rpompt diversi 
+const fristText = prompt('scrivi una parola');
+const SecondText = prompt('scrivi una parola');
 
-for( let i = 0 ; i < 2 ;  i++){
+if(fristText.length > SecondText.length){
+    console.log(SecondText + ' '+ fristText)
+}else if ( SecondText.length > fristText.length ){
+    console.log(fristText + ' ' + SecondText)
 
-    const userFirsText = prompt('scrivi una parola');
-
-    console.log(userFirsText)
+}else{
+    console.log('le parole hanno la stessa lunghezza')
 }
-
-
-// calcolare la lunghezza delle parole 
-
-
-// poi stampare in console prima la parola più corta e poi quella più lunga 
